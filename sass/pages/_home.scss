@@ -13,9 +13,10 @@
     ),
     url("../../img/desk-side-view.jpg");
   background-size: cover;
-
+  margin-top: -10rem;
   transform: skewY(-7deg);
 
+  // Select child
   & > * {
     transform: skewY(7deg);
   }
