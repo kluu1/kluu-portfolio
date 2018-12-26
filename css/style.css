@@ -367,6 +367,16 @@ body {
       border: 1rem solid #68a7c9cc;
       transform: scale(1.1) translateY(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5); }
+  .section-about__links {
+    font-size: 5rem; }
+    .section-about__links a {
+      color: #0080ffcc;
+      text-decoration: none; }
+    .section-about__links i {
+      transition: all 0.2s; }
+      .section-about__links i:hover {
+        transform: scale(1.1);
+        text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .section-feature {
   padding: 20rem 0;

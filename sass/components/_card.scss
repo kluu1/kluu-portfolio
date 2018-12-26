@@ -18,9 +18,6 @@
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
     background-color: $color-white;
 
-    &--front {
-    }
-
     &--back {
       background-color: $color-white;
       transform: rotateY(180deg);
