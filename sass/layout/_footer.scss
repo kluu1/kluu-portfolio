@@ -6,6 +6,10 @@
   margin-top: -20rem;
   text-align: center;
 
+  @include respond(tab-port) {
+    padding: 8rem 0;
+  }
+
   &__links {
     font-size: 5rem;
 
