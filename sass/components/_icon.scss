@@ -1,0 +1,11 @@
+.icon-box {
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: $color-primary-dark;
+  font-size: 5rem;
+
+  &__text {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,35 @@
+.footer {
+  background-color: $color-grey-light-1;
+  padding: 10rem 0;
+  padding-top: 30rem;
+  font-size: 1.4rem;
+  margin-top: -20rem;
+  text-align: center;
+
+  &__navigation {
+  }
+
+  &__logo_box {
+  }
+
+  &__logo {
+  }
+
+  &__links {
+    font-size: 5rem;
+
+    & a {
+      color: $color-primary-dark;
+      text-decoration: none;
+    }
+
+    & i {
+      transition: all 0.2s;
+
+      &:hover {
+        transform: scale(1.1);
+        text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+      }
+    }
+  }
+}

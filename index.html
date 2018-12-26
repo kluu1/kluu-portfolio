@@ -3,22 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
     <link rel="stylesheet" href="css/icon-font.css" />
-    <!-- <link rel="stylesheet" href="css/icon-font.css" /> -->
+    <link rel="stylesheet" href="css/animations.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css"
+      integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw="
+      crossorigin="anonymous"
+    />
     <title>Kevin Luu | Full Stack Web Devloper</title>
   </head>
 
   <body>
     <header class="header">
-      <div class="header__logo-brand">
-        <img src="img/logo-white.png" alt="brand-logo" class="header__logo" />
-      </div>
+      <div class="header__logo-brand"><img src="img/logo-white.png" alt="brand-logo" class="header__logo" /></div>
       <div class="header__text-box">
         <h1 class="heading-primary">
           <span class="heading-primary--main"> < Kevin Luu /> </span>
@@ -30,150 +41,251 @@
 
     <main>
       <section class="section-about">
-        <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">Biography</h2>
-        </div>
-
+        <div class="u-center-text u-margin-bottom-big"><h2 class="heading-secondary">Biography</h2></div>
         <div class="row">
           <div class="col-1-of-2">
-            <h3 class="heading-tertiary u-margin-bottom-small">
-              Motivated By Technology
-            </h3>
-            <p class="paragraph">
-              I am a Full Stack Web Developer specializing in the JavaScript and
-              Node.js. I have over 10 years of combined experience in the IT
-              industry. Over the years I naturally developed great
-              communications skills and the drive to deliver the best customer
-              experience. I am motivated and self-driven to deilver nothing but
-              top quality products. My technical skills involves everything from
-              system engineering to building full stack web applications.
-            </p>
-            <h3 class="heading-tertiary u-margin-bottom-small">
-              Driven by passion
-            </h3>
-            <p class="paragraph">
-              I am passionate about new technologies and following best
-              practices recommended by the industry experts. I pride myself in
-              writing clean, reusable, and maintainable code with these
-              practices in mind. I also enjoy mentoring and assisting junior
-              devlopers as I find it really rewarding. Sharing is caring.
-            </p>
-            <a href="#" class="btn-text">Learn more &rarr;</a>
+            <img
+              src="img/porfolio-img.jpg"
+              alt="porfolio-img"
+              class="section-about__img--portfolio u-margin-bottom-small"
+            />
+            <div class="u-center-text">
+              <h3 class="heading-secondary">Kevin Luu</h3>
+              <h3 class="heading-tertiary">Full Stack Web Developer</h3>
+              <p>
+                <span style="font-size: 3em; color: Tomato;">
+                  <a href="https://www.linkedin.com/in/kevin-luu-3485a01a/">
+                    <!-- <i class="fab fa-linkedin big-icon"></i> -->
+                    <i class="fas fa-igloo"></i>
+                  </a>
+                </span>
+                <a href="https://github.com/kluu1"> <i class="fab fa-github-square icon icon--blue"></i> </a>
+                <a href="https://drive.google.com/file/d/1fICNdOXO19cdtynZ76VbG1ESG2Jl0IH4/view">
+                  <i class="ai ai-cv icon icon--blue"></i>
+                </a>
+                <a href="mailto:this.kevinluu@gmail.com"> <i class="fa fa-envelope icon icon--blue"></i> </a>
+              </p>
+            </div>
           </div>
           <div class="col-1-of-2">
-            <div class="composition">
-              <img
-                src="img/nat-1-large.jpg"
-                alt="Photo 1"
-                class="composition__photo composition__photo--p1"
-              />
-              <img
-                src="img/nat-2-large.jpg"
-                alt="Photo 2"
-                class="composition__photo composition__photo--p2"
-              />
-              <img
-                src="img/nat-3-large.jpg"
-                alt="Photo 3"
-                class="composition__photo composition__photo--p3"
-              />
-            </div>
+            <h3 class="heading-tertiary u-margin-bottom-small">Motivated By Technology</h3>
+            <p class="paragraph">
+              I am a Full Stack Web Developer specializing in the JavaScript and Node.js. I have over 10 years of
+              combined experience in the IT industry. Over the years I naturally developed great communications skills
+              and the drive to deliver the best customer experience. I am motivated and self-driven to deilver nothing
+              but top quality products. My technical skills involves everything from system engineering to building full
+              stack web applications.
+            </p>
+            <h3 class="heading-tertiary u-margin-bottom-small">Driven by passion</h3>
+            <p class="paragraph">
+              I am passionate about new technologies and following best practices recommended by the industry experts. I
+              pride myself in writing clean, reusable, and maintainable code with these practices in mind. I also enjoy
+              mentoring and assisting junior devlopers as I find it really rewarding. Sharing is caring.
+            </p>
+            <a href="#" class="btn-text">Learn more &rarr;</a>
           </div>
         </div>
       </section>
 
       <section class="section-feature">
         <div class="row">
-          <div class="col-1-of-4">
+          <div class="col-1-of-3">
             <div class="feature-box">
               <i class="feature-box__icon icon-basic-heart"></i>
               <h3 class="heading-tertiary u-margin-bottom-small">Interests</h3>
               <p>Web Development</p>
               <p>Software Engineering</p>
               <p>Reliability Engineering</p>
-              <p>Performance Tuning</p>
-              <p>Implementing Best Practices</p>
-              <p>Learning New Technologies</p>
+              <p>Performance Engineering</p>
             </div>
           </div>
-          <div class="col-1-of-4">
+          <div class="col-1-of-3">
             <div class="feature-box">
               <i class="feature-box__icon icon-basic-compass"></i>
               <h3 class="heading-tertiary u-margin-bottom-small">Education</h3>
-              <p>
-                <strong>Georgia State University,</strong> Computer Information
-                Systems, 2009
-              </p>
-              <p>
-                <strong>Georgia Institute of Technology,</strong> Full Stack Web
-                Development, 2019
-              </p>
-              <!-- <p class="feature-box__text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque
-                eaque eligendi quas a cupiditate deleniti cumque. Voluptates aut
-                expedita vel.
-              </p> -->
+              <p><strong>Georgia Institute of Technology</strong></p>
+              <p>Full Stack Web Development, 2019</p>
+              <p><strong>Georgia State University</strong></p>
+              <p>Computer InformationSystems, 2009</p>
             </div>
           </div>
-          <div class="col-1-of-4">
+          <div class="col-1-of-3">
             <div class="feature-box">
               <i class="feature-box__icon icon-basic-map"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">
-                Diverse Background
-              </h3>
-              <p>IT Support</p>
-              <p>Security Analyst</p>
+              <h3 class="heading-tertiary u-margin-bottom-small">Diverse Background</h3>
               <p>Software Engineering</p>
               <p>Infrastructure Engineering</p>
               <p>Site Reliability Engineering</p>
               <p>Cloud Engineering</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="section-skills">
+        <div class="u-center-text u-margin-bottom-big"><h2 class="heading-secondary">Skills</h2></div>
+        <div class="row animatedParent">
           <div class="col-1-of-4">
-            <div class="feature-box">
-              <i class="feature-box__icon icon-basic-world"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">Hobbies</h3>
-              <p>Technology</p>
-              <p>Meet ups</p>
-              <p>Golf</p>
-              <p>Tennis</p>
-              <p>Fitness</p>
-              <p>Traveling</p>
+            <div class="icon-box animated bounceInRight">
+              <i class="devicon devicon-javascript-plain"></i>
+              <h3 class="icon-box__text">JavaScript</h3>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="icon-box animated bounceInRight">
+              <i class="devicon devicon-nodejs-plain"></i>
+              <h3 class="icon-box__text">Node.js</h3>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="icon-box animated bounceInRight">
+              <i class="devicon devicon-react-plain"></i>
+              <h3 class="icon-box__text">React</h3>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="icon-box animated bounceInRight">
+              <i class="devicon devicon-express-original"></i>
+              <h3 class="icon-box__text">Express</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row animatedParent">
+          <div class="col-1-of-4">
+            <div class="icon-box animated bounceInLeft">
+              <i class="devicon devicon-html5-plain"></i>
+              <h3 class="icon-box__text">HTML5</h3>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="icon-box animated bounceInLeft">
+              <i class="devicon devicon-css3-plain"></i>
+              <h3 class="icon-box__text">CSS3</h3>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="icon-box animated bounceInLeft">
+              <i class="devicon devicon-sass-plain"></i>
+              <h3 class="icon-box__text">Sass</h3>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="icon-box animated bounceInLeft">
+              <i class="devicon devicon-jquery-plain"></i>
+              <h3 class="icon-box__text">jQuery</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row animatedParent">
+          <div class="col-1-of-4">
+            <div class="icon-box animated bounceInRight">
+              <i class="devicon devicon-mongodb-plain"></i>
+              <h3 class="icon-box__text">MongoDB</h3>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="icon-box animated bounceInRight">
+              <i class="devicon devicon-mysql-plain"></i>
+              <h3 class="icon-box__text">MySQL</h3>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="icon-box animated bounceInRight">
+              <i class="devicon devicon-travis-plain-wordmark"></i>
+              <h3 class="icon-box__text">Travis CI</h3>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="icon-box animated bounceInRight">
+              <i class="devicon devicon-mocha-plain"></i>
+              <h3 class="icon-box__text">Mocha Chai</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-projects">
+        <div class="u-center-text u-margin-bottom-big"><h2 class="heading-projects">Projects</h2></div>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">&nbsp;</div>
+                <div class="card__heading u-margin-top-small">Cryptofolio</div>
+                <div class="card_details"></div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__detail-box">
+                    <p class="card__detail-title">Cryptofolio</p>
+                    <p class="card__detail-summary u-margin-bottom-big">
+                      A simple to use porfolio tracker for all your cryptocurrencies.
+                    </p>
+                    <a href="https://github.com/kluu1/Cryptofolio" class="btn btn--white">View on GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">&nbsp;</div>
+                <div class="card__heading u-margin-top-small">Giftastic</div>
+                <div class="card_details"></div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__detail-box">
+                    <p class="card__detail-title">Giftastic</p>
+                    <p class="card__detail-summary u-margin-bottom-big">A fun little app for all your giffy needs!</p>
+                    <a href="https://github.com/kluu1/GifTastic-App" class="btn btn--white">View on GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">&nbsp;</div>
+                <div class="card__heading u-margin-top-small">Atlanta Transit System</div>
+                <div class="card_details"></div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__detail-box">
+                    <p class="card__detail-title">Atlanta Transit System</p>
+                    <p class="card__detail-summary u-margin-bottom-big">
+                      A trainer scheduler application to track train times in the Greater Atlanta Area.
+                    </p>
+                    <a href="https://github.com/kluu1/Train-Scheduler" class="btn btn--white">View on GitHub</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
 
-    <!-- <section class="grid-test">
+    <footer class="footer">
+      <div class="footer__logo-box"><h2 class="heading-secondary">Get in touch!</h2></div>
       <div class="row">
-        <div class="col-1-of-2">Col 1 of 2</div>
-        <div class="col-1-of-2">Col 1 of 2</div>
+        <div class="footer__navigation">
+          <div class="footer__links">
+            <a href="https://www.linkedin.com/in/kevin-luu-3485a01a/"> <i class="fab fa-linkedin big-icon"></i> </a>
+            <a href="https://github.com/kluu1"> <i class="fab fa-github-square big-icon"></i> </a>
+            <a href="https://drive.google.com/file/d/1fICNdOXO19cdtynZ76VbG1ESG2Jl0IH4/view">
+              <i class="ai ai-cv big-icon"></i>
+            </a>
+            <a href="mailto:this.kevinluu@gmail.com"> <i class="fa fa-envelope big-icon"></i> </a>
+          </div>
+        </div>
       </div>
+    </footer>
 
-      <div class="row">
-        <div class="col-1-of-3">Col 1 of 3</div>
-        <div class="col-1-of-3">Col 1 of 3</div>
-        <div class="col-1-of-3">Col 1 of 3</div>
-      </div>
-
-      <div class="row">
-        <div class="col-1-of-4">Col 1 of 4</div>
-        <div class="col-1-of-4">Col 1 of 4</div>
-        <div class="col-1-of-4">Col 1 of 4</div>
-        <div class="col-1-of-4">Col 1 of 4</div>
-      </div>
-
-      <div class="row">
-        <div class="col-1-of-4">Col 1 of 4</div>
-        <div class="col-1-of-4">Col 1 of 4</div>
-        <div class="col-2-of-4">Col 2 of 4</div>
-      </div>
-
-      <div class="row">
-        <div class="col-1-of-4">Col 1 of 4</div>
-        <div class="col-1-of-4">Col 3 of 4</div>
-      </div>
-    </section> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/js/css3-animate-it.js"></script>
   </body>
 </html>
