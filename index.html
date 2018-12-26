@@ -27,6 +27,34 @@
     <title>Kevin Luu | Full Stack Web Devloper</title>
   </head>
 
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+    <label for="navi-toggle" class="navigation__button"> <span class="navigation__icon">&nbsp;</span> </label>
+
+    <div class="navigation__background">&nbsp;</div>
+
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#about" class="navigation__link"><span>01</span>Biography</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#feature" class="navigation__link"><span>02</span>Background</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#skills" class="navigation__link"><span>03</span>Skills</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#projects" class="navigation__link"><span>04</span>Projects</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#footer" class="navigation__link"><span>05</span>Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
   <body>
     <header class="header">
       <div class="header__logo-brand"><img src="img/logo-white.png" alt="brand-logo" class="header__logo" /></div>
@@ -40,7 +68,7 @@
     </header>
 
     <main>
-      <section class="section-about">
+      <section class="section-about" id="about">
         <div class="u-center-text u-margin-bottom-big"><h2 class="heading-secondary">Biography</h2></div>
         <div class="row">
           <div class="col-1-of-2">
@@ -81,7 +109,7 @@
         </div>
       </section>
 
-      <section class="section-feature">
+      <section class="section-feature" id="feature">
         <div class="row">
           <div class="col-1-of-3">
             <div class="feature-box">
@@ -116,7 +144,7 @@
         </div>
       </section>
 
-      <section class="section-skills">
+      <section class="section-skills" id="skills">
         <div class="u-center-text u-margin-bottom-big"><h2 class="heading-secondary">Skills</h2></div>
         <div class="row animatedParent">
           <div class="col-1-of-4">
@@ -198,7 +226,7 @@
         </div>
       </section>
 
-      <section class="section-projects">
+      <section class="section-projects" id="projects">
         <div class="u-center-text u-margin-bottom-big"><h2 class="heading-projects">Projects</h2></div>
         <div class="row">
           <div class="col-1-of-3">
@@ -263,7 +291,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="footer__logo-box"><h2 class="heading-secondary">Get in touch!</h2></div>
       <div class="row">
         <div class="footer__navigation">
